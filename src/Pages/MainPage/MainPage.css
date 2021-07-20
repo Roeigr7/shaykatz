@@ -10,13 +10,13 @@
 .upperContent {
   display: flex;
   flex-direction: column;
-  padding-top: 80px;
+  padding-top: 25%;
   justify-content: stretch;
   align-items: center;
 }
 .descriptionText {
   font-size: 1rem;
-  padding-right: 50px;
+
   z-index: 10000;
 }
 .trianglePath {
@@ -37,16 +37,15 @@
   width: 20%;
   height: auto;
   position: absolute;
-  top: 20px;
-  left: 10px;
+  top: 5%;
+  left: 5%;
 }
 
 .quoteTitle {
-  margin-right: 50px;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
   font-weight: bold;
-  width: 60%;
+  width: 50%;
   line-height: 50px;
 }
 
