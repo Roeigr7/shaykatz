@@ -16,7 +16,6 @@ const MainPage = () => {
             <p>אני מזמין אתכם להרצאה</p>
             <p>הקרובה שלי:</p>
           </div>
-
           <h2 className='quoteTitle'>"הכלב אושר שלי"</h2>
         </div>
       </div>
