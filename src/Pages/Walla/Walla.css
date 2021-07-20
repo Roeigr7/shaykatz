@@ -1,0 +1,13 @@
+.container-walla {
+  position: relative;
+  background-color: #dbf3f5;
+}
+.wallaLogo {
+  width: 40%;
+  padding: 20px 0px 10px 0;
+  height: auto;
+}
+.article {
+  width: 80%;
+  height: auto;
+}

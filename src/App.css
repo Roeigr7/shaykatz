@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  direction: rtl;
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  background-color: #fed599;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-style: normal;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+.spacer {
+  position: relative;
+  top: 0;
+  margin: 30px auto;
+}
+
+.svgContainer {
+  margin: 40px 0;
+  position: relative;
+}
+.svgPlace {
+  bottom: -35px;
+  z-index: 10000;
+  width: 100%;
+  left: 0;
+  position: absolute;
+}
+
+.triangle {
+  background-repeat: no-repeat;
+  height: 50px;
+  z-index: 100;
+  clip-path: polygon(50% 100%, 100% 0, 100% 100%, 0 100%, 0 0);
+  width: 100%;
+  border-bottom: 5px solid #dbf3f5;
+}
+.brown {
+  border-bottom: 5px solid #fed599;
+}
+.triangleBlue {
+  border-bottom: 5px solid #a1cdd0;
+}
+
+.divider {
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 70%;
+  height: 1px;
+  z-index: 1000;
+  background-color: black;
+  top: -40px;
+}

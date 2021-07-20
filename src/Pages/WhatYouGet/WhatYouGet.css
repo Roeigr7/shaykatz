@@ -1,0 +1,29 @@
+.container-wyg {
+  position: relative;
+  background-color: #fed599;
+}
+
+.iconsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.iconItem {
+  flex: 0 0 33.3%;
+}
+
+.iconImg {
+  width: 40%;
+  height: 40%;
+}
+
+.iconText {
+  line-height: 1.2;
+  font-size: 0.6rem;
+  font-weight: 700;
+  margin: 0 5px;
+}

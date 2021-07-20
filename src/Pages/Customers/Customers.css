@@ -1,0 +1,35 @@
+.container-customers {
+  position: relative;
+  padding: 20px;
+}
+
+.footCustomers {
+  position: absolute;
+  left: 5%;
+  top: 0%;
+  z-index: 100000;
+  width: 50px;
+  height: 50px;
+}
+
+.footRight {
+  right: 3%;
+  top: 15%;
+}
+.footTwo {
+  top: 75%;
+  left: 3%;
+}
+
+.recommend {
+  position: relative;
+}
+
+.triangleTwo {
+  border-bottom: 5px solid white;
+  background-color: #a1cdd0;
+}
+
+.triangleWhite {
+  border-bottom: 5px solid white;
+}
